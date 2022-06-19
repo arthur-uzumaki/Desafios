@@ -48,6 +48,50 @@ footer a{
     color: white;
     
 }
-erroInput{
-    border: 2px solid black !important;
+.erroInput {
+    border: 2px solid red !important;
+}
+
+@media (max-width:500px) {
+    #titulo h1{
+        color: white;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 100px;    
+    }
+    #titulo h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom:100px;
+    color: rgba(255, 248, 248, 0.632);
+    }
+    .formulario input{
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 10px;
+        border-radius: 50px;
+        height: 25px;
+        font-size: 20px;
+     }
+     #entrar{
+         background-color: white;
+         margin-bottom: 10px;
+         border-radius: 50px;
+         height: 30px;
+         width: 250px;
+         font-size: 24px;
+         margin-left: auto;
+         margin-right: auto;
+         margin-left: 110px;
+     }
+     footer{
+         text-align: center;
+         padding-top: 100px;
+         color: white;
+     }
+     footer a{
+         text-decoration: none;
+         color: white;
+     }     
 }
