@@ -52,19 +52,7 @@ footer a{
     border: 2px solid red !important;
 }
 
-@media (max-width:500px) {
-    #titulo h1{
-        color: white;
-        text-align: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 100px;    
-    }
-    #titulo h2{
-    display: flex;
-    justify-content: center;
-    padding-bottom:100px;
-    color: rgba(255, 248, 248, 0.632);
-    }
+@media (max-width:430px) {
     .formulario input{
         display: block;
         margin-left: auto;
