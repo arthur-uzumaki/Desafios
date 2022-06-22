@@ -27,17 +27,12 @@ body{
    font-size: 20px;
    margin-left: 550px;  
 }
-
 #entrar{
-   
-    background-color: white;
-    margin-bottom: 10px;
-    border-radius: 50px;
     height: 30px;
     width: 250px;
-    font-size: 24px;
-    margin-left: 550px;
+    background-color: white;
 }
+
 footer{
     text-align: center;
     padding-top: 100px;
@@ -52,7 +47,7 @@ footer a{
     border: 2px solid red !important;
 }
 
-@media (max-width:500px) {
+@media (max-width:425px) {
     .formulario input{
         display: block;
         margin-left: auto;
@@ -62,17 +57,7 @@ footer a{
         height: 25px;
         font-size: 20px;
      }
-     #entrar{
-         background-color: white;
-         margin-bottom: 10px;
-         border-radius: 50px;
-         height: 30px;
-         width: 250px;
-         font-size: 24px;
-         margin-left: 85px;
-         margin-right: 30px;
-        
-     }
+    
      footer{
          text-align: center;
          padding-top: 100px;

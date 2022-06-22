@@ -35,7 +35,7 @@ entrar.addEventListener('click' , (evento)=> {
     }else{
        
         senha.classList.remove('erroInput')
-        cadastro()
+      
     }
 })
 function cadastro() {
