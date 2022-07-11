@@ -22,7 +22,9 @@ body{
     color: rgba(255, 248, 248, 0.632);
  
 }
-
+main{
+    position: relative;
+}
 #formulario {
    display: grid;
    position: absolute;
