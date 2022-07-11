@@ -30,12 +30,7 @@ main{
    position: absolute;
    top: 50%;
    left: 50%;
-    transform: translate(-50% , -50%);
-   margin-bottom: 10px;
-   border-radius: 50px;
-   height: 25px;
-   font-size: 20px;
-  
+   transform: translate(-50% , -50%);
 }
 .estilo{
     margin-bottom: 10px;
@@ -48,7 +43,6 @@ main{
     width: 250px;
     background-color: white;
 }
-
 footer{
     margin:100px;
     text-align: center;
