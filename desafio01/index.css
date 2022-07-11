@@ -35,17 +35,22 @@ main{
     border-radius: 50px;
     height: 25px;
     font-size: 20px;
+    border: 1px solid white;
 }
 #entrar{
     height: 30px;
     width: 250px;
     background-color: white;
+    border: 1px solid white;
 }
 footer{
     margin:100px;
     text-align: center;
     padding-top: 100px;
     color: white;
+}
+footer p {
+    padding-bottom: 10px;
 }
 footer a{
     text-decoration: none;
