@@ -63,3 +63,27 @@ footer a{
 .erroInput {
     border: 2px solid red !important;
 }
+@media (max-width:425px) {
+    #formulario {
+        display: grid;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+         transform: translate(-50% , -50%);
+        margin-bottom: 10px;
+        border-radius: 50px;
+        height: 25px;
+        font-size: 20px; 
+     }
+     .estilo{
+         margin-bottom: 10px;
+         border-radius: 50px;
+         height: 25px;
+         font-size: 20px;
+     }
+     #entrar{
+         height: 30px;
+         width: 250px;
+         background-color: rgb(255, 0, 0);
+     }
+}
