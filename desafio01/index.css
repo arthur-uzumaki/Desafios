@@ -1,3 +1,7 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
   
     background-color: blue;
@@ -18,14 +22,24 @@ body{
     color: rgba(255, 248, 248, 0.632);
  
 }
-.formulario input{
-   display: block;
-   
+
+#formulario {
+   display: grid;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+    transform: translate(-50% , -50%);
    margin-bottom: 10px;
    border-radius: 50px;
    height: 25px;
    font-size: 20px;
-   margin-left: 550px;  
+  
+}
+.estilo{
+    margin-bottom: 10px;
+    border-radius: 50px;
+    height: 25px;
+    font-size: 20px;
 }
 #entrar{
     height: 30px;
@@ -34,6 +48,7 @@ body{
 }
 
 footer{
+    margin:100px;
     text-align: center;
     padding-top: 100px;
     color: white;
@@ -45,26 +60,4 @@ footer a{
 }
 .erroInput {
     border: 2px solid red !important;
-}
-
-@media (max-width:425px) {
-    .formulario input{
-        display: block;
-        margin-left: auto;
-        margin-right: auto; 
-        margin-bottom: 10px;
-        border-radius: 50px;
-        height: 25px;
-        font-size: 20px;
-     }
-    
-     footer{
-         text-align: center;
-         padding-top: 100px;
-         color: white;
-     }
-     footer a{
-         text-decoration: none;
-         color: white;
-     }     
 }
