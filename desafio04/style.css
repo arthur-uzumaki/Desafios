@@ -1,0 +1,32 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(57, 57, 248);
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+section{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.593);
+
+}
+#filista{
+    width: 150px;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-family: italic;
+    padding: 10px;
+}
