@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+hml , body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+hr{
+    margin: 10px 0 ;
+    border-top: 3px solid rgba(255, 0, 0, 0.474);
+    border-radius: 5px;
+}
+.container{
+    margin: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.652);
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    max-width: 450px;
+    min-height: 300px;
+}
+#imgpokemon img{
+    width: 90px;
+    border: 1px solid rgba(255, 0, 0, 0.818);
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(216, 192, 255);
+    margin: 10px;
+
+}
+.img , #imgpokemon{
+    text-align: center;
+}
+.img , img{
+    width: 90%;
+}
+.grup-form{
+    padding: 5px 0;
+
+}
+.grup-form label {
+    font-weight: 900;
+    color: rgba(0, 0, 255, 0.656);
+}
+.grup-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(206, 51, 51, 0.58);
+    text-transform: uppercase;
+    border-radius: 5px 0;
+    margin: 5px 0;
+}
+.grup-form input[type=submit]{
+    background: blue;
+    font-weight: 900;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#content{
+    font-family: monospace;
+    padding: 10px ;
+    background-color: yellow;
+    border: 1px solid rgba(255, 255, 0, 0.583);
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(230, 62, 59);
+}
