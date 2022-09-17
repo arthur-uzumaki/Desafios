@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.859);
+    color: white;
+    font-family: 'Roboto', sans-serif;;
+}
+.list{
+    margin-top: -150px;
+}
+footer{
+    margin: 50px 0;
+    text-align: center;
+}
+footer span{
+    color: red;
+}
+.loading{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom:  0;
+    z-index: 99;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
