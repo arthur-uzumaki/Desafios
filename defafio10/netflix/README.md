@@ -7,9 +7,11 @@
 Projeto de cria nextflix
 
 ## 👨‍💻 Tecnologia
- - reactjs
+ - reactjs feito com javascript
  - css
  - git e github
 
- ## 💛 Contato
+## Saite da API
+  [clique aqui pra acessar](https://www.themoviedb.org/)
+  ## 💛 Contato
  arthursousarabelo2@gmail.com
