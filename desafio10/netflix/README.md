@@ -15,3 +15,4 @@ Projeto de cria nextflix
   [clique aqui pra acessar](https://www.themoviedb.org/)
   ## 💛 Contato
  arthursousarabelo2@gmail.com
+ 
