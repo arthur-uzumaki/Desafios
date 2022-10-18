@@ -2,7 +2,8 @@ import { useState , useEffect } from 'react'
 import './App.css'
 import  Tmdb  from '../../components/tmdb/Tmdb'
 import { MovieRow } from '../../components/MovieRow/MovieRow'
-import { FeaturedMovie } from '../../FeaturedMovie/FeaturedMovie'
+import {FeaturedMovie} from '../../components/FeaturedMovie/FeaturedMovie'
+
 import { Hearde } from '../../components/Header/Hearde'
 
 export function App() {
